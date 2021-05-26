@@ -501,13 +501,11 @@ wait(uint64 addr)
           if(addr != 0 && copyout2(addr, (char *)&np->xstate, sizeof(np->xstate)) < 0) {
             release(&np->lock);
             release(&p->lock);
-            printf("wait:-1\n");
             return -1;
           }
           freeproc(np);
           release(&np->lock);
           release(&p->lock);
-            printf("wait:pid\n");
           return pid;
         }
         release(&np->lock);
@@ -517,8 +515,7 @@ wait(uint64 addr)
     // No point waiting if we don't have any children.
     if(!havekids || p->killed){
       release(&p->lock);
-        printf("wait:0\n");
-      return 0;
+      return -1;
     }
     
     // Wait for a child to exit.

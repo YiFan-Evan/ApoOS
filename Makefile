@@ -212,7 +212,6 @@ UPROGS=\
 	# $U/_zombie\
 
 userprogs: $(UPROGS)
-	@$(OBJDUMP) -S $U/_init > $U/init.asm
 
 dst=/mnt
 

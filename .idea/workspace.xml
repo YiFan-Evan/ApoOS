@@ -9,7 +9,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="929375c2-e063-4c4b-81a7-59f95687b74e" name="Default Changelist" comment="" />
+    <list default="true" id="929375c2-e063-4c4b-81a7-59f95687b74e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/xv6-k210-main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/proc.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/proc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kernel/syscall.c" beforeDir="false" afterPath="$PROJECT_DIR$/kernel/syscall.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +26,11 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1splx0m6nWpNiM4iNdOvrcbP9aI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../testsuits-for-oskernel-main/testsuits-for-oskernel-main/riscv-syscalls-testing" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
@@ -41,7 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1621577654409</updated>
       <workItem from="1621577657120" duration="7241000" />
-      <workItem from="1622006313520" duration="4376000" />
+      <workItem from="1622006313520" duration="7494000" />
+      <workItem from="1622020627497" duration="7496000" />
     </task>
     <servers />
   </component>
@@ -49,13 +63,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="516" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1621582823820">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="688" y="290" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622023937529">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="516" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1621582823820" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1621580299197">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="688" y="290" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1622023937529" />
+    <state x="732" y="225" key="FileChooserDialogImpl" timestamp="1622026013661">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621580299197" />
+    <state x="732" y="225" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1622026013661" />
   </component>
 </project>
