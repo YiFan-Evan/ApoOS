@@ -163,14 +163,28 @@ create(char *path, short type, int mode)
 uint64
 sys_open(void)
 {
+//    struct proc *p = myproc();
+//    p->trapframe->a0=2344;
+//    p->trapframe->a1=0;
+//    p->trapframe->a2=6860;
+//    p->trapframe->a3=20064;
+//    p->trapframe->a4=6624;
+//    p->trapframe->a5=1092;
+//    int a0=-5,a1=-5,a2=-5,a3=-5,a4=-5,a5=-5;
+//    argint(0, &a0);
+//    argint(1, &a1);
+//    argint(2, &a2);
+//    argint(3, &a3);
+//    argint(4, &a4);
+//    argint(5, &a5);
+//    printf("a0=%d,a1=%d,a2=%d,a3=%d,a4=%d,a5=%d\n",a0,a1,a2,a3,a4,a5);
   char path[FAT32_MAX_PATH];
   int fd, omode;
   struct file *f;
   struct dirent *ep;
-
-  if(argstr(0, path, FAT32_MAX_PATH) < 0 || argint(1, &omode) < 0)
+    printf("%d",argstr(1, path, FAT32_MAX_PATH));
+  if(argstr(1, path, FAT32_MAX_PATH) < 0 || argint(2, &omode) < 0)
     return -1;
-
   if(omode & O_CREATE){
     ep = create(path, T_FILE, omode);
     if(ep == NULL){
